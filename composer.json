@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VasilKacerov/mpdf.git"
+        }
+    ],
     "name": "joseki/pdf-response",
     "description": "Pdf response extension for Nette Framework",
     "authors": [
@@ -18,7 +24,7 @@
         "castamir/pdf-response": "2.*"
     },
     "require": {
-        "mpdf/mpdf": "5.*"
+        "mpdf/mpdf": "dev-nikonschool"
     },
     "require-dev": {
         "nette/application": "~2.2",
