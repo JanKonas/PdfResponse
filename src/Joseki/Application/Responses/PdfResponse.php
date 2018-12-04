@@ -31,8 +31,11 @@ use Symfony\Component\DomCrawler\Crawler;
  * @property string $pageFormat
  * @property string $pageMargins
  */
-class PdfResponse extends Nette\Object implements Nette\Application\IResponse
+class PdfResponse implements Nette\Application\IResponse
 {
+
+	use Nette\SmartObject;
+
     /** possible save modes */
     const INLINE = "I";
 
